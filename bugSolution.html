@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    document.querySelector('#myDiv').innerHTML = '<p>This is a paragraph</p><p>This is another paragraph</p>';
+  </script>
+</body>
+</html>
